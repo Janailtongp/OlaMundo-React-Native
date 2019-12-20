@@ -11,7 +11,7 @@ export default function App() {
       <Text style={styles.f20}>Olá Mundo!</Text>
       <Simples texto ="By: Janailton Galvão Pereira"/>
       <ParImpar numero = {2} />
-      <MegaSena />
+      <MegaSena numeros={3}/>
       <Invertido texto = 'ognemalF'/>
     </View>
   );
