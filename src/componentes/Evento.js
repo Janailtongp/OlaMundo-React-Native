@@ -14,7 +14,7 @@ export default class Evento extends Component{
 
     render(){
         return(
-            <View>
+            <View style={Padrao.fundo}>
                 <Text style={Padrao.fonte40}>{this.state.texto}</Text>
                 <TextInput value={this.state.texto} 
                         style={Padrao.input} 

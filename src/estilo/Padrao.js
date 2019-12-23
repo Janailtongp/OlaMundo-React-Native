@@ -18,5 +18,9 @@ export default StyleSheet.create({
     },
     fonte40:{
         fontSize: 40
+    },
+    fundo:{
+        backgroundColor: '#612f74',
+        color: '#fff'
     }
 })
